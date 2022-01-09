@@ -1,0 +1,38 @@
+.first {
+    background-color: rgb(41, 41, 44);
+}
+
+.second {
+    background-color: burlywood;
+}
+
+.third {
+    background-color: rgb(145, 145, 145);
+}
+
+.fourth {
+    background-color: burlywood;
+}
+
+.copyright {
+    background-color: rgb(41, 41, 44);
+}
+
+.logo-links img{
+    width:100px;
+    height: auto;
+}
+
+.right-side img {
+    width: 500px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tree-item img {
+    width:200px;
+    height:auto;
+}
