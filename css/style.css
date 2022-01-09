@@ -1,31 +1,91 @@
 .first {
-    background-color: rgb(41, 41, 44);
+    background-color: #1f2937;
+    padding: 2em 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .second {
     background-color: burlywood;
+    display: flex;
 }
 
 .third {
     background-color: rgb(145, 145, 145);
+    display: flex;
 }
 
 .fourth {
     background-color: burlywood;
+    display: flex;
 }
 
 .copyright {
     background-color: rgb(41, 41, 44);
+    display: flex;
+    padding: auto;
+}
+
+.logo-links {
+    display: flex;
 }
 
 .logo-links img{
-    width:100px;
-    height: auto;
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.links {
+    color: blanchedalmond;
+    display: flex;
+    margin-left: auto;
+}
+
+.links li {
+    margin: 10px;
+}
+
+li a:visited {
+    color:rgb(145, 145, 145)
+}
+
+.main-first {
+    display: flex;
+    padding-top: 3em;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-side .title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-top: 0px;
+}
+
+.left-side .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-side .sign-up {
+    display: flex;
+    width: 5em;
 }
 
 .right-side img {
-    width: 500px;
+    width: 400px;
     height: auto;
+    display:flex;
+    align-items: center;
 }
 
 ul {
